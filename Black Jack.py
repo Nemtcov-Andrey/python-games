@@ -129,7 +129,7 @@ while True: # запускаем бесконечный цикл игры
                     if player_1.cards_count() == 21: # если кол-во очков карт 1 игрока = 21, то ему победа
                         player_1.score_up()
                         break
-                    elif player_1.cards_count() > 21: # если кол-во очков карт 1 игрока > 21, то победа 2 игроку
+                    elif player_1.cards_count() > 21:  # если кол-во очков карт 1 игрока > 21, то победа 2 игроку
                         player_2.score_up()
                         break
 
